@@ -17,8 +17,8 @@
 <% end %> -->
 
 <%= form_for @user do |f| %>
-	Username <%= f.text_field :username, value: "Your Username Here" %><br>
-	Email <%= f.text_field :email, value: "example@example.com" %><br>
+	Username <%= f.text_field :username %><br>
+	Email <%= f.text_field :email %><br>
 	Password <%= f.password_field :password %><br>
 	<%= f.submit %>
 <% end %>
